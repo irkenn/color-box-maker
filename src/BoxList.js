@@ -8,7 +8,7 @@ function BoxList(){
     const INITIAL_STATE = [
         {id: uuid(), width: 40, height:80, color:"blue" },
         { id : uuid(), width: 80, height:40, color:"red" }
-    ]
+    ];
     const [boxes, setBoxes] = useState(INITIAL_STATE);
     const addBox = (width, height, color) => {
         // Adds a new box to the box list

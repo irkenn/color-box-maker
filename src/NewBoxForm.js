@@ -35,7 +35,6 @@ function NewBoxForm({addBox}){
             return;
         }
         //uses the passed function to pass the dimensions of the new box
-        console.log(formData);
         addBox(width, height, color)
 
         //clears the inputs after submission
